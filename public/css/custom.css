@@ -1,0 +1,77 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    color: #293b5f;
+  }
+  
+  .bgPrimary{
+    background-color: #22C55E;
+  }
+  
+  .btnPrimary{
+    background-color: #22C55E;
+    color: #FFF;
+  }
+  
+  .btnPrimary:hover{
+    background-color: #1FB155;
+    color: #FFF;
+  }
+  
+  .textPrimary{
+    color: #22C55E;
+    font-weight: bold;
+  }
+  
+  body{
+    background: #E4E5E6;
+    min-height: 100vh;
+    padding-top: 160px;
+  }
+  
+  .loginContainer{
+    background: #FFF;
+    width: 580px;
+  }
+  
+  .loginContainer .textLogo{
+    margin-bottom: -3px;
+  }
+  
+  .loginContainer .textDesc{
+    font-weight: 300;
+  }
+  
+  footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #C8CED3;
+    background-color: #FFF;
+    height: 45px;
+    padding-top: 15px !important;
+    color: #293b5f;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 767px) {
+  
+    .loginContainer {
+      width: auto;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+    }
+  
+    footer{
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      border-top: 1px solid #C8CED3;
+      background-color: #FFF;
+      height: 45px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  
+  }
